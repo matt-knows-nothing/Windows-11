@@ -1,0 +1,4 @@
+2025-12-07 12:59:16.328 [info] update#ctor - updates are disabled by user preference
+2025-12-07 12:59:17.113 [info] Starting extension host with pid 18708 (fork() took 7 ms).
+2025-12-07 13:01:53.910 [info] Waiting for extension host with pid 18708 to exit.
+2025-12-07 13:01:53.943 [info] Extension host with pid 18708 exited with code: 0, signal: null.

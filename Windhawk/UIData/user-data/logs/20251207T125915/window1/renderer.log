@@ -1,0 +1,4 @@
+2025-12-07 12:59:17.120 [info] Started initializing default profile extensions in extensions installation folder. file:///c%3A/ProgramData/Windhawk/UIData/extensions
+2025-12-07 12:59:17.138 [info] Completed initializing default profile extensions in extensions installation folder. file:///c%3A/ProgramData/Windhawk/UIData/extensions
+2025-12-07 12:59:19.987 [info] [perf] Render performance baseline is 18ms
+2025-12-07 12:59:27.181 [error] Error while registering log channel file:///c%3A/ProgramData/Windhawk/UIData/user-data/logs/20251207T125915/userDataSync.log Timed out while waiting for file to be created

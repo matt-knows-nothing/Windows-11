@@ -1,0 +1,15 @@
+{
+  "app": {
+    "latestVersion": "1.6",
+    "version": "1.7.1"
+  },
+  "id": "{171B66E0-2539-4DCD-B8A9-B9F6DF8EF73C}",
+  "mods": {
+    "taskbar-auto-hide-keyboard-only": {
+      "version": "1.1.2",
+      "latestVersion": "1.1.2",
+      "disabled": false
+    }
+  },
+  "os": "10.0.26200"
+}
