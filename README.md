@@ -19,37 +19,54 @@ Just trying to make Windows 11 more aesthetic and productive!
 3. **Komorebi**  
    → https://github.com/LGUG2Z/komorebi
 
-4. **YASB**  
+4. **YASB (Yet Another Status Bar)**  
    → https://github.com/amnweb/yasb
 
-- The rest are also important but these are the main ones for a functional Desktop with my settings 😊
+> These are the essentials to make the core of my setup functional 😊  
+> The remaining apps & scripts enhance the experience even further!
 
 ---
 
 # ⚙️ Configuration
 
 ## 📊 YASB
- > API KEYS AND LOCATION HAVE ONLY PLACEHOLDERS!
-A Windows status bar configurable in yaml, written in Python.
+A customizable Windows status bar written in Python. Configured via YAML.
+
+> 🔐 API keys + location fields in my repo are placeholders — replace before using!
 
 ### Install
- - Install [**YASB**]([(https://github.com/amnweb/yasb)])  
- - Copy the config files from [**here**]([(https://github.com/matt-knows-nothing/Windows-11/tree/main/YASB)]) into <code>~/.config/yasb/</code>
- - Edit the placeholder values for the Weather Widget
- - Restart YASB
+- Install **YASB** from the repo above  
+- Copy my config files from here:  
+  → https://github.com/matt-knows-nothing/Windows-11/tree/main/YASB  
+- Paste them into: <code>%USERPROFILE%.config\yasb\</code>
+- Update the placeholder values in `widget_weather.yaml`
+- Restart YASB (or reboot)
+
+---
 
 ## 🪟 Komorebi
-A window manager that I find that is close to Hyprland for Linux. Configurable in JSON.
+A dynamic tiling window manager for Windows — feels kinda like Hyprland on Linux 👀
 
 ### Install
- - Install [**Komorebi**]([(https://github.com/LGUG2Z/komorebi)])
- - Copy the <code>applications.json and komorebi.json</code> files to your USER Directory
- - Copy the <code>whkdrc</code> config file to <code>~/.config/</code>
- - Restart Komorebi (You can use YASB for that)
+- Install **Komorebi**
+- Copy `applications.json` + `komorebi.json` to: <code>%USERPROFILE%</code>
+- Copy `whkdrc` to: <code>%USERPROFILE%.config\</code>
+- Restart Komorebi (I mapped a YASB button for this)
 
-## 🦅 WindHawk
- - Install [**WindHawk**]([(https://windhawk.net/download)])
- - Copy the config files to ProgramData/Windhawk
- - Restart Windhawk
+---
 
- > This breaks the windows taskbar. You muse disable the setting in the app for functionality to come back.
+## 🦅 Windhawk
+Windows customization tool (required for a few tweaks I use)
+
+### Install
+- Install **Windhawk**  
+→ https://windhawk.net/download
+- Copy the config files to: <code>C:\ProgramData\Windhawk\</code>
+- Restart Windhawk
+
+> ⚠️ Warning: Some Windhawk mods break the Windows taskbar.  
+> You must disable the conflicting ones for functionality to return!
+
+---
+
+💬 More screenshots, themes, and scripts coming soon…
